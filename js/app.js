@@ -316,10 +316,10 @@ function eliminarProducto(id) {
     const productoEliminado = `#producto-${id}`
     const inputEliminado = document.querySelector(productoEliminado);
 
-    console.log(inputEliminado.value)
+    // console.log(inputEliminado.value)
 
     inputEliminado.value = 0;
-    console.log(inputEliminado.value)
+    // console.log(inputEliminado.value)
 }
 
 function mensajePedidoVacio() {
@@ -333,7 +333,7 @@ function mensajePedidoVacio() {
 
     resumen.appendChild(contenido);
 
-    console.log(contenido);
+    // console.log(contenido);
 
 }
 
@@ -439,7 +439,7 @@ function clacularPropinas() {
     //Calcular la propina
     const propina = (parseInt(propinaSeleccionada) / 100) * subtotal;
 
-    console.log(propina);
+    // console.log(propina);
 
     //Calcular el total
 
